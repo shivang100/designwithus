@@ -27,7 +27,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
+                <a href="" className="text-gray-600 hover:text-gray-800">
                   About Us
                 </a>
               </li>
