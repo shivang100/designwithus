@@ -5,10 +5,10 @@ import { Button } from "@material-tailwind/react";
 import { Card } from "@material-tailwind/react";
 
 const designCatalogs = [
-  { id: 1, src: "/design1.png", title: "Design Catalog" },
-  { id: 2, src: "/design1.png", title: "Design Catalog" },
-  { id: 3, src: "/design1.png", title: "Design Catalog" },
-  { id: 4, src: "/design1.png", title: "Design Catalog" },
+  { id: 1, src: "/slide1.png", title: "Design Catalog 1" },
+  { id: 2, src: "/slide2.png", title: "Design Catalog 2" },
+  { id: 3, src: "/slide3.png", title: "Design Catalog 3" },
+  { id: 4, src: "/slide4.png", title: "Design Catalog 4" },
 ];
 
 export default function Products() {
@@ -31,7 +31,7 @@ export default function Products() {
             >
               <div className="flex flex-col gap-3 px-4 py-2">
                 {/* Image Wrapper */}
-                <div className="w-full flex justify-center">
+                <div className="w-full flex justify-center cursor-pointer hover:scale-105 transition-transform duration-300">
                   <Image
                     src={item.src}
                     alt={item.title}
@@ -44,9 +44,11 @@ export default function Products() {
                   {item.title}
                 </h1>
               </div>
-              <Button className=" mx-4 my-2 w-20 bg-yl hover:bg-orange-400">
-                View
-              </Button>
+              <a href="https://drive.google.com/drive/folders/1KFr-Tn4kmQcqz3awRhCfyOLVs-JkKSfE">
+                <Button className=" mx-4 my-2 w-20 bg-yl hover:bg-orange-400">
+                  View
+                </Button>
+              </a>
             </Card>
           ))}
         </div>

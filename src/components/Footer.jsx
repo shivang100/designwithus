@@ -22,22 +22,28 @@ export default function Footer() {
             <h2 className="text-lg font-semibold text-yl">Quick Links</h2>
             <ul className="space-y-1">
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
+                <a href="#home" className="text-gray-600 hover:text-gray-800">
                   Home
                 </a>
               </li>
               <li>
-                <a href="" className="text-gray-600 hover:text-gray-800">
+                <a href="#about" className="text-gray-600 hover:text-gray-800">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
+                <a
+                  href="#products"
+                  className="text-gray-600 hover:text-gray-800"
+                >
                   Our Products
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
+                <a
+                  href="#contact"
+                  className="text-gray-600 hover:text-gray-800"
+                >
                   Contact
                 </a>
               </li>
